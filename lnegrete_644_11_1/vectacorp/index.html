@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lnegrete 644 Assignment 11</title> 
+<link rel="stylesheet" href="themes/ass11.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<!-- Custom Theme-->
+<link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- HOME PAGE -->
+   <div data-role="page" id="home">
+   <header data-role="header">
+   <h1>Vecta Corporation</h1>
+   <nav data-role="navbar" data-iconpos="top">
+    <ul> 
+        <li><a href="#home" data-icon="gear" data-icon="grid" class="ui-btn-active ui-state-persist" data-transition="flip">Home</a> </li>
+        <li><a href="#solutions" data-icon="star" data-transition="flip">Solutions</a></li>
+        <li><a href="#contact" data-icon="grid" data-transition="flip">Conact</a></li>
+    </ul>
+    <p>Thank you for visiting Vecta Corp</p>
+</nav>
+   </header>
+   <section>
+   <h1>Welcome</h1>
+
+<p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
+
+<h1>Client Testimonials</h1>
+
+<p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.</p>
+
+Iona Ford
+President
+Chevy Dealers Association
+
+Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.
+
+Robin Banks
+CEO
+Profits Financial, Inc.
+   </section>  
+   <footer data-role="footer" data-position="fixed">
+   <h4>Copyright &copy; 2017</h4></footer>
+   </div>
+<!-- SOLUTIONS PAGE -->  
+ <div data-role="page" id="solutions">
+   <header data-role="header">
+   <h1>Solutions</h1>
+   <nav data-role="navbar" data-iconpos="top">
+    <ul>
+        <li><a href="#home" data-icon="grid" data-transition="flip">Home</a> 
+        </li>
+        <li><a href="#solutions" data-icon="grid" class="ui-btn-active ui-state-persist" data-transition="flip" >Solutions</a> 
+        </li>
+        <li><a href="#contact" data-icon="gear" data-transition="flip" >Contact</a> 
+        </li>
+    </ul>
+    <p>Here are our solutions</p>
+</nav>
+   </header>
+   <section data-role="content">
+   <ul data-role="listview" data-inset="true">
+    <li><a href="#">
+        <img src="images/vprospect.gif">
+    <h2>vProspect</h2>
+    <p>Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p></a>
+    </li>
+    <li><a href="#">
+        <img src="images/vconvert.gif">
+    <h2>vConvert</h2>
+    <p>Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p></a>
+    </li>
+    <li><a href="#">
+        <img src="images/vretain.gif">
+    <h2>vRetain</h2>
+    <p>Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p></a>
+    </li>
+</ul>
+   </section>  
+   <footer data-role="footer" data-position="fixed">
+   <h4>Copyright &copy; 2017</h4></footer>
+   </div>
+  
+<!-- CONTACT US -->   
+   <div data-role="page" id="contact">
+   <header data-role="header">
+   <h1>Contact Us</h1>
+   <nav data-role="navbar" data-iconpos="top">
+    <ul>
+        <li><a href="#home" data-icon="grid" data-transition="flip">Home</a></li>
+        <li><a href="#solutions" data-icon="star" data-transition="flip">Solutions</a></li>
+        <li><a href="#contact" data-icon="gear" data-icon="grid" class="ui-btn-active ui-state-persist" data-transition="flip">Contact</a> </li>
+    </ul>
+    <p>Contact</p>
+</nav>
+   </header>
+   <section data-role="content">
+       <p>content on the content page</p>
+       <form id="myform" action="" method="post">
+           <label for="name">Name:</label>
+           <input type="text" id="name">
+           <label for="company">Company:</label>
+           <input type="text" id="company">
+           <label for="phone">Phone:</label>
+           <input type="text" id="phone">
+           <label for="email">email:</label>
+           <input type="text" id="email">
+           
+           <fieldset data-role="controlgroup">
+           <legend>Product Interests:</legend>
+           <input type="checkbox" name="prospect" id="checkbox1">
+           <label for="checkbox1">vProspect</label>
+           <input type="checkbox" name="control" id="checkbox2">
+           <label for="checkbox2">vControl</label>
+           <input type="checkbox" name="retain" id="checkbox3"><label for="checkbox3">vRetain</label>
+           </fieldset>
+           <label for="flip">Do you want to be added to our listserv?</label>
+           <input type="checkbox" data-role="flipswitch" id="slide" name="flip" data-on-text="Yes" data-off-text="No">        </form>
+   </section>
+  <footer data-role="footer" data-position="fixed">
+   <h4>Copyright &copy; 2017</h4></footer>
+   </div>
+
+</body>
+</html>
